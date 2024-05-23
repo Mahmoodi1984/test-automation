@@ -1,0 +1,264 @@
+* {
+    margin: auto;
+}
+
+body {
+    background-color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: lightgreen;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid black;
+
+}
+
+header img {
+    width: 6%;
+
+}
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+    color: whitesmoke;
+    display: flex;
+    gap: 50px;
+}
+
+
+nav a {
+    padding: 10px;
+    border: 2px solid gray;
+    text-decoration: none;
+}
+
+li a {
+    background-color: aliceblue;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.header {
+    color: lime;
+    text-align: center;
+    background-color: white;
+
+}
+
+main img {
+    width: 200px;
+    height: 200px;
+}
+
+.historic {
+    display: flex;
+    border: double 10px green;
+    width: 70%;
+    align-items: center;
+    padding: 5px;
+    background-color: lightgreen;
+    color: black;
+    font-size: larger;
+    margin-top: 10px;
+    font-weight: bold;
+    align-content: center;
+}
+
+.first {
+    width: 33%;
+    height: 50px;
+    color: black;
+    border: solid black;
+    background-color: black;
+}
+
+.second {
+    width: 33%;
+    height: 50px;
+    color: red;
+    border: solid red;
+    background-color: red;
+}
+
+.third {
+    width: 33%;
+    height: 50px;
+    color: green;
+    border: solid green;
+    background-color: green;
+}
+
+.md {
+    margin-top: 10px;
+    display: flex;
+}
+
+.paragraph {
+    padding-left: 5px;
+    font-size: large;
+
+}
+
+.Handycraft {
+    padding: 10px;
+    display: flex;
+
+}
+
+.A1 {
+    background-color: pink;
+    border: double brown 7px;
+    margin: 5px;
+    padding: 4px;
+    text-align: center;
+    width: 25%;
+
+}
+
+.A1 img {
+    width: 100%;
+    height: 60%;
+
+}
+
+.A2 {
+    background-color: lightseagreen;
+    border: double brown 7px;
+    margin: 5px;
+    padding: 4px;
+    text-align: center;
+    background-color: plum;
+    width: 25%;
+}
+
+.A2 img {
+    width: 100%;
+    height: 60%;
+
+}
+
+
+.A3 {
+    background-color: lightslategray;
+    border: double yellow 7px;
+    margin: 5px;
+    padding: 4px;
+    width: 25%;
+    text-align: center;
+}
+
+.A3 img {
+    width: 100%;
+    height: 60%;
+}
+
+.A4 {
+    background-color: lightgreen;
+    border: double black 7px;
+    margin: 5px;
+    padding: 4px;
+    width: 25%;
+    text-align: center;
+}
+
+.A4 img {
+    width: 100%;
+    height: 60%;
+}
+
+.h2 {
+    border: double green 6px;
+    display: grid;
+    width: 65%;
+    background-color: lightslategray;
+    padding-top: 10px;
+    color: purple;
+    text-align: center;
+}
+
+.h2 img {
+    width: 50%;
+    height: 500px;
+    cursor: pointer;
+    border: double purple 6px;
+}
+
+.B1 {padding-bottom: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: lightgrey;
+    border: dotted blue 7px;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+    
+   
+}
+
+
+
+.B2 { padding-bottom: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    border: green;
+    background-color: lightslategray;
+    border: dotted red 8px;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 4px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+
+.B3 {padding-bottom: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 4px;
+    background-color: silver;
+    border: dotted purple 8px;
+}
+
+.B4{padding-bottom: 10px;
+    margin-left: 6%;
+    margin-right: 6%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lemonchiffon;
+    border: dotted  8px;
+    padding-top: 5px;
+    padding-left: 3px;
+    padding-right: 4px;
+}
+.Handycraft2 h3{ margin-left: 6%;
+padding-bottom: 10px;
+background-color: pink;
+width: max-content;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    background-color: azure;
+    width: fit-content;
+    margin-left: 6%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+.social {
+    margin-left: 6%;
+    cursor: pointer;
+
+}
+
